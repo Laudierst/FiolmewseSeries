@@ -1,0 +1,17 @@
+.altura{
+    height: 62vh;
+}
+
+.alturaImg{
+    height: 60vh;
+}
+
+@media screen and (max-width: 780px) {
+    .altura{
+        height: 42vh;
+    }
+
+    .alturaImg{
+        height: 40vh;
+    }
+}

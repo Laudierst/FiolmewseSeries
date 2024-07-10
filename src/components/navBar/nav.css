@@ -1,0 +1,45 @@
+.mrg2{
+    margin-left: 60%;
+}
+
+.imgUser {
+    width: 4%;
+    position: absolute;
+    margin-top: -2.3%;
+    margin-left: 100%;
+    border-radius: 100px;
+  }
+
+.titolo3 {
+    color: rgb(253, 252, 252);
+    font-weight: bold;
+    text-shadow: 0 3px 0 rgb(121, 116, 116), 0 1px 0 #c9c9c9, 0 1px 0 #bbb,
+        0 1px 0 #b9b9b9, 0 1px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1),
+        0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+        0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mrgb{
+    position: absolute;
+    margin-top: 10px;
+}
+@media screen and (max-width: 780px) {
+    .mrg2{
+        margin-left: 60%;
+    }
+    .imgUser {
+        width: 10%;
+        position: absolute;
+        margin-top: -6.6%;
+        margin-left: -11%;
+        border-radius: 100px;
+      }
+    
+}
+
+@media screen and (max-width: 1580px) {
+    .mrg2{
+        margin-left: 60%;
+    }
+}
