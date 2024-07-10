@@ -1,17 +1,17 @@
 .altura{
-    height: 62vh;
+    height: 48vh;
 }
 
 .alturaImg{
-    height: 60vh;
+    height: 45vh;
 }
 
 @media screen and (max-width: 780px) {
     .altura{
-        height: 42vh;
+        height: 24vh;
     }
 
     .alturaImg{
-        height: 40vh;
+        height: 22vh;
     }
 }

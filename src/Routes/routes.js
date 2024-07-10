@@ -4,12 +4,13 @@ import UserLogin from '../components/User/Login/Login'
 import User from '../components/ContaUser/ContaUser'
 import Consumo from '../components/Home/home'
 import FormularioCadastro from '../components/formulario/FormCadastraNovo';
-import Erro404 from '../components/page404/erro404';
+import Politica from '../components/politica/Politica';
 import { useContext } from 'react';
 import AppContext from '../Context/SatateDate'
 import './router.css'
 import Details from '../Details/Details';
 import Play from '../components/play/Play';
+import Termos from '../components/termos/Termos';
 
 const AdminRotas = () => {
 
@@ -49,7 +50,8 @@ const AdminRotas = () => {
                     <Route exact path="/conta" element={<Private><User /></Private>} />
                     <Route exact path="/login" element={<UserLogin />} />
                     <Route exact path="/cadastro" element={<FormularioCadastro />} />
-                    <Route exact path="/sobre" element={<Erro404 />} />
+                    <Route exact path="/sobre" element={<Politica />} />
+                    <Route exact path="/termos" element={<Termos />} />
                     <Route exact path="/details/:id" element={<Details />} />
                     <Route exact path="/play" element={<Private><Play /></Private>} />
                 </Routes>

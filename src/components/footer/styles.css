@@ -1,0 +1,5 @@
+.tela {
+    @media (max-width: 923px) {
+        width: 96%;
+    }
+}

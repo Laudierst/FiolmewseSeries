@@ -37,8 +37,8 @@ function BasicExample() {
     const email = localStorage.getItem("user")
 
     return (
-        <Navbar bg="white" expand="lg"  className="text-white mt-2 navbar-dark">
-            4k <Usuario />
+        <Navbar bg="" expand="lg"  className="text-white navbar-dark mb-3">
+            <Usuario />
             <Container>
                 <Navbar.Brand href="/" className="titolo3 text-white">
                     
@@ -109,7 +109,7 @@ function BasicExample() {
                     </Nav>
                 </Navbar.Collapse>
             </Container>
-            4k
+        
         </Navbar>
     );
 }

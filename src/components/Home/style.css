@@ -91,7 +91,7 @@ body {
 
 .movieRow--list {
   transition: all ease 0.5s;
-  height: 30vh;
+  height: 33vh;
 }
 
 .movieRow--item {
@@ -202,13 +202,13 @@ body {
 
   .movieRow--list {
     transition: all ease 0.5s;
-    height: 32vh;
+    height: 42vh;
   }
 
   .movieRow--item {
     display: inline-block;
     width: 150px;
-    height: 28vh;
+    height: 35vh;
     border: 1px solid #654;
 }
 }
