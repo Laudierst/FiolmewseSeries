@@ -84,7 +84,9 @@ body {
 }
 
 .movieRow--listarea {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+    overflow-x: auto;
+    scroll-behavior: smooth;
 }
 
 .movieRow--list {
@@ -194,5 +196,20 @@ body {
     opacity: 0;
     margin-right: 0%;
   }
+}
+
+@media(max-width: 923px) {
+
+  .movieRow--list {
+    transition: all ease 0.5s;
+    height: 32vh;
+  }
+
+  .movieRow--item {
+    display: inline-block;
+    width: 150px;
+    height: 28vh;
+    border: 1px solid #654;
+}
 }
 
