@@ -25,8 +25,8 @@ export const Footer = (props) => {
                 <div className="card-body text-center">
                     <h5 className="card-title">Contato</h5>
                     <p className="card-text">E-mail: josesantanadeveloper@gmail.com</p>
-                    <p className="card-text">Whtsapp: +55 (75) 998269380</p>
-                    <p className="card-text">Telegram: +55 (75) 998269380</p>
+                    <p className="card-text">Whtsapp: +55 (75) 998269680</p>
+                    <p className="card-text">Telegram: +55 (75) 998269680</p>
                 </div>
                 </div>
             </div>

@@ -8,6 +8,7 @@ import Consumo6 from './home7'
 import Consumo7 from './home8'
 import Consumo8 from './home9'
 import Slind from '../Slind/Slind'
+import { Footer } from '../footer/Fotter'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Consumo6 />
       <Consumo7 />
       <Consumo2 />
+      <Footer/>
     </div>
   )
 }

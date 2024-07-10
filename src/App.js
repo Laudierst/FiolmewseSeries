@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.min.css'
 import Nav from './components/navBar/nav2';
 import AdminRotas from './Routes/routes';
 import './style.css'
-import { Footer } from './components/footer/Fotter';
+//import { Footer } from './components/footer/Fotter';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
         <AdminRotas />
       </div>
       <ToastContainer />
-      <Footer/>
+     {/* <Footer/>*/}
     </div>
 
 

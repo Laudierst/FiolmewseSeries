@@ -1,0 +1,16 @@
+.position {
+    margin: auto;
+    display: flex;
+    border: 1px solid #fff;
+}
+
+.positionPlay {
+    margin: auto;
+    display: flex;
+}
+
+.videoplay {
+    @media (max-width: 923px) {
+        width: 300px;
+    }
+}
