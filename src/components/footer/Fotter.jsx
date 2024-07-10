@@ -8,7 +8,7 @@ import "./styles.css"
 
 export const Footer = (props) => {
   return(
-    <div className='tela mt-5 mb-5 container'>
+    <div className='tela mt-5 mb-5 container text-white'>
         <hr className='text-white' />
         <div className="row">
             <div className="col-sm-6">
