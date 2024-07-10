@@ -7,10 +7,10 @@ export default function Slind() {
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                 <div className="carousel-item">
-                    <img src="692439.png" className="d-block w-100 alturaImg" alt="img"/>
+                    <img src="677720.jpg" className="d-block w-100 alturaImg" alt="img"/>
                     </div>
                     <div className="carousel-item">
-                    <img src="729758.jpg" className="d-block w-100 alturaImg" alt="img"/>
+                    <img src="692439.jpg" className="d-block w-100 alturaImg" alt="img"/>
                     </div>
                     <div className="carousel-item">
                     <img src="868807.jpg" className="d-block w-100 alturaImg" alt="img"/>
