@@ -13,7 +13,7 @@ const Consumo = () => {
   const { filmes } = useContext(Contexte)
 
   const [chec, setChec] = useState([])
-  const [load, setLoad] = useState(false)
+  const [load] = useState(false)
   const [ scollx, setScollx ] = useState(-400)
 
  

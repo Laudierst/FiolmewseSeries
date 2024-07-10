@@ -14,7 +14,7 @@ const Consumo = () => {
     const url = `https://api.themoviedb.org/3/movie/popular?api_key=${key()}&language=pt-BR&page=2`
 
     const [chec, setChec] = useState([])
-    const [load, setLoad] = useState(false)
+    const [load] = useState(false)
     const [ scollx, setScollx ] = useState(-400)
     const [filmes2, setFilmes2] = useState([])
 
