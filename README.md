@@ -1,5 +1,3 @@
-# FilmeSeries
-
 ![exemplo](https://github.com/Laudier2/FilmeseSeries/blob/master/public/fm.PNG)
 
 # Potífolio
@@ -43,4 +41,3 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 Feito com 💖 José Santana de Jesus 👋 [Entre na nossa comunidade canal do youtube!](https://www.youtube.com/@LaudierSantana/videos)
-
